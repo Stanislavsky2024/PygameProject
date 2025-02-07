@@ -1695,8 +1695,6 @@ def cutscene():
 def win_screen():
     global running, tiles_group, floor_group, player_group, all_sprites
     pygame.mixer.music.stop()
-    points = 298
-    seconds = 299
     tiles_group = SpriteGroup()
     floor_group = SpriteGroup()
     player_group = SpriteGroup()

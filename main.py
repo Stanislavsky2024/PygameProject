@@ -316,6 +316,7 @@ def load_level(file):
 
 
 pygame.init()
+pygame.display.set_caption('Save the princess')
 screen_size = (1400, 800)
 screen = pygame.display.set_mode(screen_size)
 FPS = 50
